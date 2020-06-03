@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks List</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+    <h1>List of national parks</h1>
+    <form>
+        <fieldset>
+            <label for="stateCode">Enter a state code</label>
+            <input id="state" name="stateCode" type="text" required/>
+
+            <label for="max-results">Maximum results to return</label>
+            <input type="number" name="max-results" id="js-max-results" value="10" min="1" max="50">
+        </fieldset>
+        <button type="submit">Search</button>
+    </form>
+    <p id="js-error-message" class="error-message"></p>
+    <section class="results"></section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

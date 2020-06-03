@@ -1,0 +1,32 @@
+body {
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+fieldset {
+    border: 1px solid grey;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+input {
+    width: 40px;
+}
+
+.results {
+    line-height: 30px;
+}
